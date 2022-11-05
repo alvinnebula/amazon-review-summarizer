@@ -1,8 +1,8 @@
-# reddit-summarizer via bart-large-cnn
+# Amazon-review-summarizer via bart-large-cnn
 
 ![python](https://img.shields.io/badge/Python-3.9.0%2B-blue)
 ![gradio](https://img.shields.io/badge/Gradio-Gradio%20app-red)
-![data](https://img.shields.io/badge/Hugging%20Face-%20Datasets%3A%20Reddit-yellow)
+![data](https://img.shields.io/badge/Hugging%20Face-%20Datasets%3A%20Amazon%20Review-yellow)
 ![license](https://img.shields.io/badge/license-MIT-lightgreen)
 
 **DS5899 Special Topics  - Course Project** 
@@ -14,7 +14,7 @@
 > - BART model pre-trained on English language, and fine-tuned on CNN Daily Mail. It was introduced in the paper BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension by Lewis et al. and first released in [this repository (https://github.com/pytorch/fairseq/tree/master/examples/bart).
 
 ### Datasets
-> **Datasets:** **[_Reddit Webis-TLDR-17_](https://huggingface.co/datasets/reddit)**
+> **Datasets:** **[_amazon_reviews_multi_](https://huggingface.co/datasets/amazon_reviews_multi)**
 > - This corpus contains preprocessed posts from the Reddit dataset (Webis-TLDR-17). The dataset consists of 3,848,330 posts with an average length of 270 words for content, and 28 words for the summary.
 > - Features includes strings: author, body, normalizedBody, content, summary, subreddit, subreddit_id. Content is used as document and summary is used as summary.
 
