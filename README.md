@@ -19,7 +19,7 @@
 > - Features includes strings: author, body, normalizedBody, content, summary, subreddit, subreddit_id. Content is used as document and summary is used as summary.
 
 ### Resources
-> Mike Lewis et al. **BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension**. *arXiv preprint arXiv:1910.13461, 2019*
+> Mike Lewis et al. **BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension**. *arXiv preprint arXiv:1910.13461, 2019* [link](https://arxiv.org/abs/1910.13461)
 
 
 
