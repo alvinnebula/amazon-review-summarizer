@@ -2,7 +2,7 @@
 
 ![python](https://img.shields.io/badge/Python-3.9.0%2B-blue)
 ![gradio](https://img.shields.io/badge/Gradio-Gradio%20app-red)
-![[data](https://img.shields.io/badge/Hugging%20Face-%20Datasets%3A%20Amazon%20Review-yellow)](https://huggingface.co/mabrouk/reddit-summarizer-bart)
+[![data](https://img.shields.io/badge/Hugging%20Face-%20Datasets%3A%20Amazon%20Review-yellow)](https://huggingface.co/mabrouk/reddit-summarizer-bart)
 ![license](https://img.shields.io/badge/license-MIT-lightgreen)
 
 **DS5899 Special Topics  - Course Project** 
