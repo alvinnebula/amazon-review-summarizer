@@ -60,7 +60,7 @@
 Use this model with the [pipeline API](https://huggingface.co/transformers/main_classes/pipelines.html):
 ```bash
 from transformers import pipeline
-summarizer = pipeline("summarization", model="mabrouk/reddit-summarizer-bart")
+summarizer = pipeline("summarization", model="mabrouk/amazon-review-summarizer-bart")
 review = """ I really like this book. It takes a step-by-step approach to introduce the reader to the IBM Q Experience, to the basics underlying quantum computing, and to the reality of the noise involved in the current machines. This introduction is technical and shows the user how to use the IBM system either directly through the GUI on their website or by running Python code on one's own machine. The text provides examples of small exercises to try and stimulates ideas of new things to try. The IBM Q Exp Qiskit software modules are identified and introduced - Terra, Aer, Ignis, and Aqua, as well as the backends that one can choose to do the computing. The book ends with two great chapters on quantum algorithms.
 """
 print(summarizer(review))
