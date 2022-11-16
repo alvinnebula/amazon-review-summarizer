@@ -67,7 +67,7 @@ print(summarizer(review))
 >>> [{'summary': 'This book is a great resource, and a great read, to learn about quantum and start writing your first programs, or to brush up on your programming skills. I loved that there is a quiz at the end of every chapter so you can check and see how...'}]
 ```
 
-Model card: [Our Hugging Face API](https://huggingface.co/mabrouk/amazon-review-summarizer-bart)
+Our model card: [Our Hugging Face API](https://huggingface.co/mabrouk/amazon-review-summarizer-bart)
 
 ## Video
 Explore our model via [YouTube Link](https://youtu.be/v7L6HpE_WTQ)
