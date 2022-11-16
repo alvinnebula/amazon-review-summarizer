@@ -52,9 +52,10 @@
 > - _**language**_: The string identifier of the review language.
 > - _**product_category**_: String representation of the product's category.
 
+## Video
+[YouTube Link](https://youtu.be/v7L6HpE_WTQ)
 
-
-### Resources
+## Resources
 > Mike Lewis et al. **BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension**. *arXiv preprint arXiv:1910.13461, 2019* - [Link](https://arxiv.org/abs/1910.13461)
 
 
