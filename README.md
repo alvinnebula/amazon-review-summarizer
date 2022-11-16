@@ -56,6 +56,7 @@
 
 ## API
 **How to use**
+
 Here is how to use this model with the [pipeline API](https://huggingface.co/transformers/main_classes/pipelines.html):
 ```bash
 from transformers import pipeline
@@ -64,9 +65,9 @@ review = """ I really like this book. It takes a step-by-step approach to introd
 """
 print(summarizer(review))
 >>> [{'summary': 'I really like this book. It takes a step-by-step approach to introduce the reader to the IBM Q Experience, to the basics underlying quantum computing, and to the reality of the noise involved in the current machines. The book ends with two great ...'}]
+```
 
 [Our Hugging Face API](https://huggingface.co/mabrouk/amazon-review-summarizer-bart)
-```
 
 ## Video
 [YouTube Link](https://youtu.be/v7L6HpE_WTQ)
