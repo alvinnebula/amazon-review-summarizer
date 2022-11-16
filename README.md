@@ -56,6 +56,7 @@
 
 ## API
 **How to use**
+Here is how to use this model with the [pipeline API](https://huggingface.co/transformers/main_classes/pipelines.html):
 ```bash
 from transformers import pipeline
 summarizer = pipeline("summarization", model="mabrouk/reddit-summarizer-bart")
