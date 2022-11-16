@@ -64,7 +64,7 @@ summarizer = pipeline("summarization", model="mabrouk/amazon-review-summarizer-b
 review = """ I really like this book. It takes a step-by-step approach to introduce the reader to the IBM Q Experience, to the basics underlying quantum computing, and to the reality of the noise involved in the current machines. This introduction is technical and shows the user how to use the IBM system either directly through the GUI on their website or by running Python code on one's own machine. The text provides examples of small exercises to try and stimulates ideas of new things to try. The IBM Q Exp Qiskit software modules are identified and introduced - Terra, Aer, Ignis, and Aqua, as well as the backends that one can choose to do the computing. The book ends with two great chapters on quantum algorithms.
 """
 print(summarizer(review))
->>> [{'summary': 'I really like this book. It takes a step-by-step approach to introduce the reader to the IBM Q Experience, to the basics underlying quantum computing, and to the reality of the noise involved in the current machines. The book ends with two great ...'}]
+>>> [{'summary': 'This book is a great resource, and a great read, to learn about quantum and start writing your first programs, or to brush up on your programming skills. I loved that there is a quiz at the end of every chapter so you can check and see how...'}]
 ```
 
 Model card: [Our Hugging Face API](https://huggingface.co/mabrouk/amazon-review-summarizer-bart)
